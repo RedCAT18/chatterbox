@@ -1,0 +1,24 @@
+{
+  "name": "chatterbox",
+  "version": "1.0.0",
+  "description": "chatting application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedCAT18/chatterbox.git"
+  },
+  "author": "RedCAT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RedCAT18/chatterbox/issues"
+  },
+  "homepage": "https://github.com/RedCAT18/chatterbox#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
