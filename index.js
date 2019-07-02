@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
-var extract = require('./extract.js');
+var extract = require('./extract');
+var wss = require('./websocket-server');
 
 //handling exception
 var handleError = function(err, res) {

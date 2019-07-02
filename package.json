@@ -20,5 +20,8 @@
   "homepage": "https://github.com/RedCAT18/chatterbox#readme",
   "devDependencies": {
     "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "ws": "^7.0.1"
   }
 }
