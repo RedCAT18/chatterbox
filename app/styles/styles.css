@@ -1,9 +1,10 @@
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body {
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 .chat-wrapper {
@@ -16,7 +17,8 @@ body {
   overflow-y: auto;
 }
 
-ul, ul.panel-body {
+ul,
+ul.panel-body {
   margin: 0;
   padding: 0;
 }
@@ -43,9 +45,10 @@ ul, ul.panel-body {
 
 .me {
   /* justify-content: flex-end; */
-  flex-direction: row-reverse;      }
+  flex-direction: row-reverse;
+}
 
-.me img{
+.me img {
   padding-right: 0;
   padding-left: 1em;
 }
@@ -70,4 +73,3 @@ ul, ul.panel-body {
   font-style: italic;
   /*        display: block; */
 }
-

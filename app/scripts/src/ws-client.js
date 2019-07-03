@@ -17,12 +17,12 @@ function registerOpenHandler(handlerFunction) {
 }
 
 //when connection removed (disconnect)
-function registerCloseHandler(handlerFunction) {
-  socket.onclose = () => {
-    console.log('close');
-    handlerFunction();
-  };
-}
+// function registerCloseHandler(handlerFunction) {
+//   socket.onclose = () => {
+//     console.log('close');
+//     handlerFunction();
+//   };
+// }
 
 //handling messages received
 function registerMessageHandler(handlerFunction) {
@@ -41,7 +41,7 @@ function sendMessage(payload) {
 export default {
   init,
   registerOpenHandler,
-  registerCloseHandler,
+  // registerCloseHandler,
   registerMessageHandler,
   sendMessage
 };
